@@ -1,0 +1,8 @@
+apiVersion: extensions/v1beta1 
+kind: Ingress 
+metadata: 
+  name: k8ingresstest.com 
+spec: 
+  backend: 
+    serviceName: tomcat 
+    servicePort: 26414
